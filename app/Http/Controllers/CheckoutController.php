@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class CheckoutController extends Controller
 {
     //
-    public function index(){
+    public function checkout(){
         return inertia("Index/Index",[
             'message' => 'hello from package inertia in laravel world in index page'
         ]);
